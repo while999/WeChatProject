@@ -5,10 +5,9 @@ WebChat聊天室
 [借鉴于CleverQin](https://github.com/cleverqin/node-websocket-Chatroom)
 
 关联MySQL，在dbconfig.js中修改mysql配置进行连接，用户需要自主创建User表。
-------------------User------------------------/r/n
-自增ID   username   password   name   infotext/r/n
-int      varchar    varchar   varchar  varchar/r/n
-----------------------------------------------/r/n
+
+自增ID   username   password    name    infotext
+
 实现注册账号效果。
 
 功能介绍
